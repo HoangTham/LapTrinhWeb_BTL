@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="1tr">
+<head>
+	<title>Login</title>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" href="./css/login.css">
+
+	<script>
+        function dangnhap() {
+            var a = document.getElementById('tendn');
+            var b = document.getElementById('mkdn');
+            if (a.value == "admin" && b.value == "1234") {
+                alert("Dang nhap thanh cong");
+                history.back();
+            }else{
+                alert("Dang nhap khong thanh cong!")
+            }
+        }
+	</script>
+	
+</head>
+<body>
+<div class="container">
+	<!-- action="index.html" -->
+	<form class="box" method="post" > 
+		<h1>Đăng nhập</h1>
+		<input type="text" name="" placeholder="Username" id="tendn">
+		<input type="password" name="" placeholder="Password"id="mkdn">
+		<div class="detail">
+			<a  href="forgotpass.html" target="_blank">Quên mật khẩu</a>
+			<a 	href="registration.html" target="_blank">Đăng ký</a>
+		</div>
+		<input type="submit" name="" value="Login" onclick="dangnhap()">	
+	</form>
+</div>
+	
+</body>
+</html>	
