@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #EE4D2D;
+    background: #ee842d;
 }
 
 .boxrepass{
@@ -53,11 +53,11 @@ body{
 }
 .boxrepass input[type = "submit"]{
     border: 0;
-    background: #EE4D2D;
+    background: #eeb12d;
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #EE4D2D;
+    border: 2px solid #fdb125;
     padding: 14px 40px;
     outline: none;
     color:white;

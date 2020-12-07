@@ -1,7 +1,8 @@
 #backBtn {
-  background: #0a6e25;
+  background: #eea112;
   padding: 10px;
   margin-right: 2%;
+  color: black;
 }
 
 #backBtn:hover {
@@ -34,7 +35,7 @@
   width: 100%;
   height: 50vh;
   padding: 2%;
-  background: #44c767;
+  background: #f0bd17;
   /* color: white; */
 }
 
@@ -58,7 +59,7 @@
   border: 1px solid black;
   color: black;
   font-size: 1.2rem;
-  background: rgb(3, 248, 85);
+  background: rgb(248, 134, 3);
 }
 
 .button__checkout:hover {

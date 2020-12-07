@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #EE4D2D;
+    background: #eea12d;
 }
 
 .box{
@@ -54,11 +54,11 @@ body{
 }
 .box input[type = "submit"]{
     border: 0;
-    background: #EE4D2D;
+    background: #eec50e;
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #EE4D2D;
+    border: 2px solid #f3b711;
     padding: 14px 40px;
     outline: none;
     color:white;
